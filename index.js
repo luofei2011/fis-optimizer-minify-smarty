@@ -1,7 +1,13 @@
 /**
- * @fileO fis-optimizer-minify-smarty
+ * @file fis-optimizer-minify-smarty
+ * @description 如果smarty的边界符不是{%%}，请自行修改代码。。。
+ *
  * @author  luofeihit2010@gmail.com
  * https://www.vim.ren/
+ *
+ * TODO:
+ * 1. 这种方式不支持{%if%}这样的非赋值或者取变量语句！！！如果有好的办法请联系我~
+ * 2. 所以，三元表达式应该也不支持
  */
 
 'use strict';
