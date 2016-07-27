@@ -1,0 +1,28 @@
+{
+  "name": "fis-optimizer-minify-smarty",
+  "version": "1.0.0",
+  "description": "minify inline javascript and css(with smarty variables).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luofei2011/fis-optimizer-minify-smarty.git"
+  },
+  "keywords": [
+    "fis",
+    "smarty",
+    "minify"
+  ],
+  "author": "luofeihit2010@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luofei2011/fis-optimizer-minify-smarty/issues"
+  },
+  "homepage": "https://github.com/luofei2011/fis-optimizer-minify-smarty#readme",
+  "dependencies": {
+    "uglify-js": "^2.7.0",
+    "uglifycss": "0.0.20"
+  }
+}
